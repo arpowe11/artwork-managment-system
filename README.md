@@ -40,13 +40,6 @@ Welcome to the **Artwork Management System**, a full-stack project for managing 
 
 ---
 
-## Getting Started
-1. Clone this repository.
-2. Follow the instructions in the respective frontend and backend README files to set up and run the project.
-3. Run tests to ensure everything is working correctly.
-
----
-
 ## Documentation
 - All project-related documentation, including testing reports and implementation guides, is available in the respective `documents` or `documentation` folders.
 

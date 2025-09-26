@@ -17,7 +17,6 @@ import org.junit.platform.suite.api.Suite;
         com.apowell.artwork_backend.security.JwtUtilTest.class,
         com.apowell.artwork_backend.security.OAuth2LoginSuccessHandlerTest.class,
 })
-
 public class AllTestsSuite {
     // No methods needed here
 }
