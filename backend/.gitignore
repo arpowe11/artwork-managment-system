@@ -1,0 +1,120 @@
+# ==========================
+# Master .gitignore
+# ==========================
+
+# --------------------------
+# General OS / IDE files
+# --------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --------------------------
+# IntelliJ / JetBrains
+# --------------------------
+.idea/
+*.iml
+*.iws
+out/
+target/
+
+# --------------------------
+# Maven / Java
+# --------------------------
+/target/
+/*.log
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.h2.db
+hs_err_pid*
+*.class
+*.jar.original
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# --------------------------
+# Spring Boot
+# --------------------------
+/logs/
+*.pid
+*.seed
+spring.log
+spring-boot-devtools.properties
+
+# --------------------------
+# Python
+# --------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# shell
+*.sh

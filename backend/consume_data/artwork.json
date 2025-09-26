@@ -1,0 +1,2277 @@
+{
+    "pagination": {
+        "total": 129489,
+        "limit": 12,
+        "offset": 0,
+        "total_pages": 10791,
+        "current_page": 1,
+        "next_url": "https://api.artic.edu/api/v1/artworks?page=2"
+    },
+    "data": [
+        {
+            "id": 247860,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/247860",
+            "is_boosted": false,
+            "title": "Inland Steel Building, Chicago, Illinois, Structure and Façade Details",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBwAFAPQAAMG0mci7ncq9oc/BotDCo9DCpNHDptLDptPEpdLEptXHqdfKrdXJr9jJqtjLrtnLrtvNrtvNr93NrdjMsdrMsNvOsNjNs9zOsNzOsd3PsdzPstrOtNnPt97Qsd3Rt9zQuCH5BAAAAAAALAAAAAAHAAUAAAUdIAN10ZU5EzEEiERtzQEIkTcZSpFAn/UsGE2FEwIAOw==",
+                "width": 7221,
+                "height": 5110,
+                "alt_text": "A work made of pen and black ink with graphite on tan wove tracing paper."
+            },
+            "main_reference_number": "2018.542.1",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1956,
+            "date_end": 1957,
+            "date_display": "c. 1956–1957",
+            "date_qualifier_title": "Made",
+            "date_qualifier_id": 4,
+            "artist_display": "Skidmore, Owings & Merrill (American, founded 1936)\nBruce Graham (American, born Colombia, 1925–2010)\nWalter Netsch (American, 1920–2008)",
+            "place_of_origin": "United States",
+            "description": null,
+            "short_description": null,
+            "dimensions": "76 × 107 cm (29 15/16 × 42 1/8 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": null,
+                    "width": 107,
+                    "height": 76,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Pen and black ink with graphite on tan wove tracing paper",
+            "inscriptions": null,
+            "credit_line": "Gift of Skidmore, Owings & Merrill LLP",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Basic",
+            "internal_department_id": 25,
+            "fiscal_year": 2019,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 20.5466,
+            "color": {
+                "h": 40,
+                "l": 52,
+                "s": 13,
+                "percentage": 7.85813731796896e-05,
+                "population": 29
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 44312,
+            "artist_title": "Skidmore, Owings & Merrill",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                44312
+            ],
+            "artist_titles": [
+                "Skidmore, Owings & Merrill"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "ink",
+                "architectural drawing",
+                "Chicago",
+                "20th Century",
+                "steel",
+                "buildings",
+                "tracing paper",
+                "graphite",
+                "architecture"
+            ],
+            "style_id": "TM-13130",
+            "style_title": "20th Century",
+            "alt_style_ids": [],
+            "style_ids": [
+                "TM-13130"
+            ],
+            "style_titles": [
+                "20th Century"
+            ],
+            "classification_id": "TM-126",
+            "classification_title": "architectural drawing",
+            "alt_classification_ids": [
+                "TM-103"
+            ],
+            "classification_ids": [
+                "TM-126",
+                "TM-103"
+            ],
+            "classification_titles": [
+                "architectural drawing",
+                "architecture"
+            ],
+            "subject_id": "TM-12075",
+            "alt_subject_ids": [
+                "TM-13291",
+                "TM-12296"
+            ],
+            "subject_ids": [
+                "TM-12075",
+                "TM-13291",
+                "TM-12296"
+            ],
+            "subject_titles": [
+                "Chicago",
+                "steel",
+                "buildings"
+            ],
+            "material_id": "TM-2398",
+            "alt_material_ids": [
+                "TM-3040",
+                "TM-2410"
+            ],
+            "material_ids": [
+                "TM-2398",
+                "TM-3040",
+                "TM-2410"
+            ],
+            "material_titles": [
+                "ink",
+                "tracing paper",
+                "graphite"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "e6ff9253-dde1-bbb3-19dd-171fcb8bb22e",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2018.542.1"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Inland Steel Building, Chicago, Illinois, Structure and Façade Details"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:45:34-05:00",
+            "updated_at": "2025-09-16T11:50:25-05:00",
+            "timestamp": "2025-09-16T11:53:24-05:00"
+        },
+        {
+            "id": 234676,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/234676",
+            "is_boosted": false,
+            "title": "Prototype of Social Housing Unit Drawing",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAMnK0tfY3ufk2Njb4t3e5N7g5+Dh4eLi4Ofm4ebo6ejr8Ojr8ert8Ons8gAAAAAAACH5BAAAAAAALAAAAAADAAUAAAQLcLWmAhmgHMMEShEAOw==",
+                "width": 1465,
+                "height": 2250,
+                "alt_text": "A work made of digital print on paper."
+            },
+            "main_reference_number": "2016.207.4",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 2015,
+            "date_end": 2015,
+            "date_display": "2015",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "Tatiana Bilbao Estudio (Mexican, founded 2004)\nTatiana Bilbao (Mexican, born 1972)",
+            "place_of_origin": "Mexico",
+            "description": null,
+            "short_description": null,
+            "dimensions": "93 × 62 × 2 cm (36 1/2 × 24 1/2 × 3/4 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": 2,
+                    "width": 62,
+                    "height": 93,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Digital print on paper",
+            "inscriptions": null,
+            "credit_line": "Gift of Tatiana Bilbao",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Basic",
+            "internal_department_id": 25,
+            "fiscal_year": 2017,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 26.498,
+            "color": {
+                "h": 42,
+                "l": 47,
+                "s": 95,
+                "percentage": 0.010259369689974672,
+                "population": 112
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 114739,
+            "artist_title": "Tatiana Bilbao",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                114739
+            ],
+            "artist_titles": [
+                "Tatiana Bilbao"
+            ],
+            "category_ids": [
+                "PC-5",
+                "PC-829"
+            ],
+            "category_titles": [
+                "Architecture and Design",
+                "Latin American"
+            ],
+            "term_titles": [
+                "paper (fiber product)",
+                "21st Century",
+                "digital print",
+                "urban planning",
+                "architectural drawing",
+                "digital print drawing",
+                "houses",
+                "photograph",
+                "photography"
+            ],
+            "style_id": "TM-12913",
+            "style_title": "21st Century",
+            "alt_style_ids": [],
+            "style_ids": [
+                "TM-12913"
+            ],
+            "style_titles": [
+                "21st Century"
+            ],
+            "classification_id": "TM-1197",
+            "classification_title": "digital print",
+            "alt_classification_ids": [
+                "TM-126",
+                "TM-240",
+                "TM-67"
+            ],
+            "classification_ids": [
+                "TM-1197",
+                "TM-126",
+                "TM-240",
+                "TM-67"
+            ],
+            "classification_titles": [
+                "digital print",
+                "architectural drawing",
+                "photograph",
+                "photography"
+            ],
+            "subject_id": "TM-12545",
+            "alt_subject_ids": [
+                "TM-12493"
+            ],
+            "subject_ids": [
+                "TM-12545",
+                "TM-12493"
+            ],
+            "subject_titles": [
+                "urban planning",
+                "houses"
+            ],
+            "material_id": "TM-2982",
+            "alt_material_ids": [
+                "TM-13148"
+            ],
+            "material_ids": [
+                "TM-2982",
+                "TM-13148"
+            ],
+            "material_titles": [
+                "paper (fiber product)",
+                "digital print drawing"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [
+                "Latin American"
+            ],
+            "image_id": "fa3509e5-354d-d24f-6984-5accae04c8d6",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2016.207.4"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Prototype of Social Housing Unit Drawing"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:47:17-05:00",
+            "updated_at": "2025-09-16T11:50:25-05:00",
+            "timestamp": "2025-09-16T11:53:24-05:00"
+        },
+        {
+            "id": 252392,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/252392",
+            "is_boosted": false,
+            "title": "Texture Study, Student Project, Institute of Design, Chicago, Illinois",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPMAAH16doB8eIF9eYaCfYeDf4mFgImGgY2JhI2KhI6KhZOOiZOPipWRi5yXkZyYkqKdlyH5BAAAAAAALAAAAAAEAAUAAAQPMJXlRhitEKCOAAxjIE8EADs=",
+                "width": 7501,
+                "height": 9338,
+                "alt_text": "A work made of gelatin silver prints."
+            },
+            "main_reference_number": "2020.463.1",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1945,
+            "date_end": 1949,
+            "date_display": "Late 1940s",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "Art Sinsabaugh\nAmerican, 1924–1983",
+            "place_of_origin": "United States",
+            "description": null,
+            "short_description": null,
+            "dimensions": "20.3 × 25.4 cm (8 × 10 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": null,
+                    "width": 25,
+                    "height": 20,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Gelatin silver prints",
+            "inscriptions": null,
+            "credit_line": "Gift of Bauhaus Chicago Foundation",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, Bauhaus Chicago: Design in the City, November 23, 2019 - September 21, 2020.",
+            "provenance_text": "Bauhaus Chicago Foundation; given to the Art Institute of Chicago, 2020.",
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": 2021,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 0,
+            "color": {
+                "h": 38,
+                "l": 47,
+                "s": 2,
+                "percentage": 0.000833757612214138,
+                "population": 584
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Photograph",
+            "artwork_type_id": 2,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 24183,
+            "artist_title": "Art Sinsabaugh",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                24183
+            ],
+            "artist_titles": [
+                "Art Sinsabaugh"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "bauhaus",
+                "gelatin silver print",
+                "photograph",
+                "student projects",
+                "20th Century",
+                "textile",
+                "texture",
+                "education",
+                "modernist",
+                "Chicago",
+                "institute of Design"
+            ],
+            "style_id": "TM-7634",
+            "style_title": "bauhaus",
+            "alt_style_ids": [
+                "TM-13130"
+            ],
+            "style_ids": [
+                "TM-7634",
+                "TM-13130"
+            ],
+            "style_titles": [
+                "bauhaus",
+                "20th Century"
+            ],
+            "classification_id": "TM-240",
+            "classification_title": "photograph",
+            "alt_classification_ids": [
+                "TM-69"
+            ],
+            "classification_ids": [
+                "TM-240",
+                "TM-69"
+            ],
+            "classification_titles": [
+                "photograph",
+                "textile"
+            ],
+            "subject_id": "TM-13198",
+            "alt_subject_ids": [
+                "TM-14340",
+                "TM-14535",
+                "TM-14536",
+                "TM-12075",
+                "TM-13268"
+            ],
+            "subject_ids": [
+                "TM-13198",
+                "TM-14340",
+                "TM-14535",
+                "TM-14536",
+                "TM-12075",
+                "TM-13268"
+            ],
+            "subject_titles": [
+                "student projects",
+                "texture",
+                "education",
+                "modernist",
+                "Chicago",
+                "institute of Design"
+            ],
+            "material_id": "TM-13866",
+            "alt_material_ids": [],
+            "material_ids": [
+                "TM-13866"
+            ],
+            "material_titles": [
+                "gelatin silver print"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "ca9a4af8-a2f1-e89f-2452-b2922cc838c6",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2020.463.1"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Texture Study, Student Project, Institute of Design, Chicago, Illinois"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:48:14-05:00",
+            "updated_at": "2025-09-16T11:50:24-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 234679,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/234679",
+            "is_boosted": false,
+            "title": "Prototype of Social Housing Unit Drawing",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAMzUz8TZ2ODd0dnf4tfi5N/g5tfi6OHk5Ofl5eTl5+Xn7Obo7OXp7ubq7+fs8QAAACH5BAAAAAAALAAAAAADAAUAAAQLcCV1BBqgkGBYcxEAOw==",
+                "width": 1465,
+                "height": 2250,
+                "alt_text": "A work made of digital print on paper."
+            },
+            "main_reference_number": "2016.207.7",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 2015,
+            "date_end": 2015,
+            "date_display": "2015",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "Tatiana Bilbao Estudio (Mexican, founded 2004)\nTatiana Bilbao (Mexican, born 1972)",
+            "place_of_origin": "Mexico",
+            "description": null,
+            "short_description": null,
+            "dimensions": "93 × 62 × 2 cm (36 1/2 × 24 1/2 × 3/4 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": 2,
+                    "width": 62,
+                    "height": 93,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Digital print on paper",
+            "inscriptions": null,
+            "credit_line": "Gift of Tatiana Bilbao",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Basic",
+            "internal_department_id": 25,
+            "fiscal_year": 2017,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 44.4785,
+            "color": {
+                "h": 41,
+                "l": 51,
+                "s": 87,
+                "percentage": 0.01538905453496201,
+                "population": 168
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 114739,
+            "artist_title": "Tatiana Bilbao",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                114739
+            ],
+            "artist_titles": [
+                "Tatiana Bilbao"
+            ],
+            "category_ids": [
+                "PC-5",
+                "PC-829"
+            ],
+            "category_titles": [
+                "Architecture and Design",
+                "Latin American"
+            ],
+            "term_titles": [
+                "paper (fiber product)",
+                "21st Century",
+                "digital print",
+                "urban planning",
+                "architectural drawing",
+                "digital print drawing",
+                "photograph",
+                "photography"
+            ],
+            "style_id": "TM-12913",
+            "style_title": "21st Century",
+            "alt_style_ids": [],
+            "style_ids": [
+                "TM-12913"
+            ],
+            "style_titles": [
+                "21st Century"
+            ],
+            "classification_id": "TM-1197",
+            "classification_title": "digital print",
+            "alt_classification_ids": [
+                "TM-126",
+                "TM-240",
+                "TM-67"
+            ],
+            "classification_ids": [
+                "TM-1197",
+                "TM-126",
+                "TM-240",
+                "TM-67"
+            ],
+            "classification_titles": [
+                "digital print",
+                "architectural drawing",
+                "photograph",
+                "photography"
+            ],
+            "subject_id": "TM-12545",
+            "alt_subject_ids": [],
+            "subject_ids": [
+                "TM-12545"
+            ],
+            "subject_titles": [
+                "urban planning"
+            ],
+            "material_id": "TM-2982",
+            "alt_material_ids": [
+                "TM-13148"
+            ],
+            "material_ids": [
+                "TM-2982",
+                "TM-13148"
+            ],
+            "material_titles": [
+                "paper (fiber product)",
+                "digital print drawing"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [
+                "Latin American"
+            ],
+            "image_id": "b117ee36-1609-137c-8669-983b4ae25950",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2016.207.7"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Prototype of Social Housing Unit Drawing"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:47:17-05:00",
+            "updated_at": "2025-09-16T11:50:24-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 264963,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/264963",
+            "is_boosted": false,
+            "title": "Texture Study, Student Project, Institute of Design, Chicago, Illinois",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACYlJSkpKCsrKi0sKy4tLDU0Mzk4Nzo5OD49PEVEQkZEQ0lHRklIRktJR0pJSFNSUVZTUVtZVwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIIMU0EEAyzEIjTEEyuMkUQgAOw==",
+                "width": 7480,
+                "height": 9291,
+                "alt_text": "A work made of gelatin silver print."
+            },
+            "main_reference_number": "2020.463.4",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1945,
+            "date_end": 1950,
+            "date_display": "Late 1940s",
+            "date_qualifier_title": "Made",
+            "date_qualifier_id": 4,
+            "artist_display": "Art Sinsabaugh\nAmerican, 1924–1983",
+            "place_of_origin": "United States",
+            "description": null,
+            "short_description": null,
+            "dimensions": "20.3 × 25.4 cm (8 × 10 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": null,
+                    "width": 25,
+                    "height": 20,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Gelatin silver print",
+            "inscriptions": null,
+            "credit_line": "Gift of Bauhaus Chicago Foundation",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": "Bauhaus Chicago Foundation; given to the Art Institute of Chicago, 2020.",
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": 2021,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 0,
+            "color": {
+                "h": 54,
+                "l": 47,
+                "s": 1,
+                "percentage": 0.00011079665963899282,
+                "population": 77
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Photograph",
+            "artwork_type_id": 2,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 24183,
+            "artist_title": "Art Sinsabaugh",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                24183
+            ],
+            "artist_titles": [
+                "Art Sinsabaugh"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "student projects",
+                "gelatin silver print",
+                "20th Century",
+                "Chicago",
+                "education",
+                "institute of Design",
+                "modernist",
+                "texture",
+                "photograph",
+                "bauhaus"
+            ],
+            "style_id": "TM-13130",
+            "style_title": "20th Century",
+            "alt_style_ids": [
+                "TM-7634"
+            ],
+            "style_ids": [
+                "TM-13130",
+                "TM-7634"
+            ],
+            "style_titles": [
+                "20th Century",
+                "bauhaus"
+            ],
+            "classification_id": null,
+            "classification_title": null,
+            "alt_classification_ids": [
+                "TM-240"
+            ],
+            "classification_ids": [
+                "TM-240"
+            ],
+            "classification_titles": [
+                "photograph"
+            ],
+            "subject_id": "TM-13198",
+            "alt_subject_ids": [
+                "TM-12075",
+                "TM-14535",
+                "TM-13268",
+                "TM-14536",
+                "TM-14340"
+            ],
+            "subject_ids": [
+                "TM-13198",
+                "TM-12075",
+                "TM-14535",
+                "TM-13268",
+                "TM-14536",
+                "TM-14340"
+            ],
+            "subject_titles": [
+                "student projects",
+                "Chicago",
+                "education",
+                "institute of Design",
+                "modernist",
+                "texture"
+            ],
+            "material_id": "TM-13866",
+            "alt_material_ids": [],
+            "material_ids": [
+                "TM-13866"
+            ],
+            "material_titles": [
+                "gelatin silver print"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "484be4ae-ad88-a81f-d0c9-b156f7975e4f",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2020.463.4"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Texture Study, Student Project, Institute of Design, Chicago, Illinois"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:48:14-05:00",
+            "updated_at": "2025-09-16T11:50:23-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 264961,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/264961",
+            "is_boosted": false,
+            "title": "Texture Study, Student Project, Institute of Design, Chicago, Illinois",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGZjX2toZG1qZXBtaHFuaXNva3Nwa3Zzbndzbn57dYB8d4F9d4J+eYN/eYSAeoWBe4iEfo2JgwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYEMUyiIgzgMYEBMMCnQkUQgAOw==",
+                "width": 7471,
+                "height": 9368,
+                "alt_text": "A work made of gelatin silver print."
+            },
+            "main_reference_number": "2020.463.2",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1945,
+            "date_end": 1950,
+            "date_display": "Late 1940s",
+            "date_qualifier_title": "Made",
+            "date_qualifier_id": 4,
+            "artist_display": "Art Sinsabaugh\nAmerican, 1924–1983",
+            "place_of_origin": "United States",
+            "description": null,
+            "short_description": null,
+            "dimensions": "20.3 × 25.4 cm (8 × 10 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": null,
+                    "width": 25,
+                    "height": 20,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Gelatin silver print",
+            "inscriptions": null,
+            "credit_line": "Gift of Bauhaus Chicago Foundation",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": "Bauhaus Chicago Foundation; given to the Art Institute of Chicago, 2020.",
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": 2021,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 0,
+            "color": {
+                "h": 38,
+                "l": 46,
+                "s": 3,
+                "percentage": 0.0008615722324442441,
+                "population": 603
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Photograph",
+            "artwork_type_id": 2,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 24183,
+            "artist_title": "Art Sinsabaugh",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                24183
+            ],
+            "artist_titles": [
+                "Art Sinsabaugh"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "student projects",
+                "gelatin silver print",
+                "20th Century",
+                "Chicago",
+                "education",
+                "institute of Design",
+                "modernist",
+                "texture",
+                "photograph",
+                "bauhaus"
+            ],
+            "style_id": "TM-13130",
+            "style_title": "20th Century",
+            "alt_style_ids": [
+                "TM-7634"
+            ],
+            "style_ids": [
+                "TM-13130",
+                "TM-7634"
+            ],
+            "style_titles": [
+                "20th Century",
+                "bauhaus"
+            ],
+            "classification_id": null,
+            "classification_title": null,
+            "alt_classification_ids": [
+                "TM-240"
+            ],
+            "classification_ids": [
+                "TM-240"
+            ],
+            "classification_titles": [
+                "photograph"
+            ],
+            "subject_id": "TM-13198",
+            "alt_subject_ids": [
+                "TM-12075",
+                "TM-14535",
+                "TM-13268",
+                "TM-14536",
+                "TM-14340"
+            ],
+            "subject_ids": [
+                "TM-13198",
+                "TM-12075",
+                "TM-14535",
+                "TM-13268",
+                "TM-14536",
+                "TM-14340"
+            ],
+            "subject_titles": [
+                "student projects",
+                "Chicago",
+                "education",
+                "institute of Design",
+                "modernist",
+                "texture"
+            ],
+            "material_id": "TM-13866",
+            "alt_material_ids": [],
+            "material_ids": [
+                "TM-13866"
+            ],
+            "material_titles": [
+                "gelatin silver print"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "f7c00174-6804-03a8-d338-846fa350b31b",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2020.463.2"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Texture Study, Student Project, Institute of Design, Chicago, Illinois"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:48:14-05:00",
+            "updated_at": "2025-09-16T11:50:23-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 182216,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/182216",
+            "is_boosted": false,
+            "title": "San Diego Theater",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAKCemaKgnqWinKWin6qmoKqmoaqnoaioo6yqpa6qpK+rpa+rpqyspq+sp66sqbCtprGuqLKuqLCvq7KuqrKvqrGwrLWwrLSxrbayrbeyrbeyrrezrra0r7m1r7m2sbm3sbu4sgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwAPiEaFAGJJLBrPxfCqThELTATkaioUFwwkMCIaCABAEADs=",
+                "width": 5169,
+                "height": 3746,
+                "alt_text": "A work made of variable media."
+            },
+            "main_reference_number": "RX23664/118.1-322",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1929,
+            "date_end": 1968,
+            "date_display": "1929/68",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Bertrand Goldberg\nAmerican, 1913-1997",
+            "place_of_origin": "San Diego",
+            "description": null,
+            "short_description": null,
+            "dimensions": "Variable dimensions",
+            "dimensions_detail": [],
+            "medium_display": "Variable media",
+            "inscriptions": null,
+            "credit_line": "The Archive of Bertrand Goldberg, gifted by his children through his estate",
+            "catalogue_display": null,
+            "publication_history": "Barrow, Heather and Lori Hanna Boyer.  Bertrand Goldberg Collection Finding Aid.  (The Art Institute of Chicago, 2007), p. 37.",
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 4.3913,
+            "color": {
+                "h": 4,
+                "l": 42,
+                "s": 3,
+                "percentage": 0.0038829447476377136,
+                "population": 20
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Mixed Media",
+            "artwork_type_id": 15,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 31299,
+            "artist_title": "Bertrand Goldberg",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                31299
+            ],
+            "artist_titles": [
+                "Bertrand Goldberg"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "mixed media",
+                "Bertrand Goldberg Archive"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids": [],
+            "style_ids": [],
+            "style_titles": [],
+            "classification_id": "TM-10366",
+            "classification_title": "mixed media",
+            "alt_classification_ids": [],
+            "classification_ids": [
+                "TM-10366"
+            ],
+            "classification_titles": [
+                "mixed media"
+            ],
+            "subject_id": null,
+            "alt_subject_ids": [
+                "TM-14001"
+            ],
+            "subject_ids": [
+                "TM-14001"
+            ],
+            "subject_titles": [
+                "Bertrand Goldberg Archive"
+            ],
+            "material_id": null,
+            "alt_material_ids": [],
+            "material_ids": [],
+            "material_titles": [],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "266179e7-80bb-db05-2521-fcc7ce8f4606",
+            "alt_image_ids": [
+                "936b8026-872f-c14d-146c-d8708d6da40b",
+                "62934006-2f34-a29f-674c-3f10f1d6ffbe",
+                "b3b569bd-0f5d-5acd-172a-401bb8b54219"
+            ],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "RX23664/118.1-322"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "San Diego Theater"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:21:38-05:00",
+            "updated_at": "2025-09-16T11:25:24-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 190190,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/190190",
+            "is_boosted": false,
+            "title": "RECYCLE Clarendon Avenue School: Section and Wall Elevation",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhDQAFAPUAALKwm7e1n7u3nbi1n7i2n7u4nru4n7y4n7y5n725n7m3oLq3oLi3oru4obu5or26oL26ob66ob67oby6or67o7u6pL27pb68pb68pr++p8C8osC9pMG+pcK/pcC+psG+psG/psK/psK/p8G/qMG/qsPBp8PAqcPBq8TCqsbDqsTCrMTDrMXDrMTDrcbErMfFrcXErsnHrcjHrgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAANAAUAAAY7QNmLxYLBWqoVysTpxFyuDIZ0GlkaDYlmEggQKgwLgOBoIA6EyUAxcVwaFMrCUEiVQiLQx7OBPCIJAkEAOw==",
+                "width": 6187,
+                "height": 2441,
+                "alt_text": "A work made of pencil on tracing paper."
+            },
+            "main_reference_number": "RX23664/66.7",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1960,
+            "date_end": 1966,
+            "date_display": "n.d.",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Bertrand Goldberg\nAmerican, 1913-1997",
+            "place_of_origin": "Chicago",
+            "description": null,
+            "short_description": null,
+            "dimensions": "Irregular: 30.5 × 80 cm (12 1/16 × 31 1/2 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": null,
+                    "width": 80,
+                    "height": 30,
+                    "diameter": null,
+                    "clarification": "Irregular"
+                }
+            ],
+            "medium_display": "Pencil on tracing paper",
+            "inscriptions": null,
+            "credit_line": "The Archive of Bertrand Goldberg, gifted by his children through his estate",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 11.0304,
+            "color": {
+                "h": 41,
+                "l": 55,
+                "s": 11,
+                "percentage": 0.027785792910348068,
+                "population": 78
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 31299,
+            "artist_title": "Bertrand Goldberg",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                31299
+            ],
+            "artist_titles": [
+                "Bertrand Goldberg"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "paper",
+                "paper (fiber product)",
+                "Chicago",
+                "architectural drawing",
+                "Bertrand Goldberg Archive"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids": [],
+            "style_ids": [],
+            "style_titles": [],
+            "classification_id": "TM-145",
+            "classification_title": "paper",
+            "alt_classification_ids": [
+                "TM-126"
+            ],
+            "classification_ids": [
+                "TM-145",
+                "TM-126"
+            ],
+            "classification_titles": [
+                "paper",
+                "architectural drawing"
+            ],
+            "subject_id": null,
+            "alt_subject_ids": [
+                "TM-12075",
+                "TM-14001"
+            ],
+            "subject_ids": [
+                "TM-12075",
+                "TM-14001"
+            ],
+            "subject_titles": [
+                "Chicago",
+                "Bertrand Goldberg Archive"
+            ],
+            "material_id": "TM-2982",
+            "alt_material_ids": [],
+            "material_ids": [
+                "TM-2982"
+            ],
+            "material_titles": [
+                "paper (fiber product)"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "7bd0f886-acf3-6900-2f36-1b11be9c694d",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "RX23664/66.7"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "RECYCLE Clarendon Avenue School: Section and Wall Elevation"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:23:23-05:00",
+            "updated_at": "2025-09-16T11:25:23-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 180309,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/180309",
+            "is_boosted": false,
+            "title": "Clarendon Avenue School, Chicago, Illinois",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAHRxcMrDv8rEwcvGwszFwczGws3HxM/Jxc7KxtDLx9HLx9HMydHNydPMyNPNyNPNydLNytLOytPOytPOy9PPy9XOy9TPy9fQy9TQzNfTztrTztnU0NnV0drV0d3W0N/Y093Y1N7Z1d/b1gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQJElgUBgIoBQBgNZQCYcUGdjmUgYlE9FYRAMCg+P5uJoHAKEIAA7",
+                "width": 3000,
+                "height": 1993,
+                "alt_text": "A collection of architectural drawings on individual pages, including elevation drawings, a classroom sketch, a presentation drawing, and a floor plan, each depicting the same structure: a low-lying building consisting of a rectilinear portion and multiple pod-like sections with curved roofs."
+            },
+            "main_reference_number": "RX23664/66.1-183",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1960,
+            "date_end": 1966,
+            "date_display": "1960–1966",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Bertrand Goldberg\nAmerican, 1913–1997",
+            "place_of_origin": "Chicago",
+            "description": null,
+            "short_description": null,
+            "dimensions": "Variable dimensions",
+            "dimensions_detail": [],
+            "medium_display": "Variable media",
+            "inscriptions": null,
+            "credit_line": "The Archive of Bertrand Goldberg, gifted by his children through his estate",
+            "catalogue_display": null,
+            "publication_history": "Barrow, Heather and Lori Hanna Boyer.  Bertrand Goldberg Collection Finding Aid.  (The Art Institute of Chicago, 2007), p. 18.",
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 5.0251,
+            "color": {
+                "h": 0,
+                "l": 16,
+                "s": 3,
+                "percentage": 0.03558718861209965,
+                "population": 168
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 31299,
+            "artist_title": "Bertrand Goldberg",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                31299
+            ],
+            "artist_titles": [
+                "Bertrand Goldberg"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "architectural drawing",
+                "20th Century",
+                "schools",
+                "paper (fiber product)",
+                "Chicago",
+                "illinois",
+                "Bertrand Goldberg Archive",
+                "graphite",
+                "ink",
+                "architechture",
+                "architectural drawing",
+                "drawing",
+                "elevation",
+                "Floor plan",
+                "school",
+                "sketch",
+                "urban",
+                "working drawing"
+            ],
+            "style_id": "TM-13130",
+            "style_title": "20th Century",
+            "alt_style_ids": [],
+            "style_ids": [
+                "TM-13130"
+            ],
+            "style_titles": [
+                "20th Century"
+            ],
+            "classification_id": "TM-126",
+            "classification_title": "architectural drawing",
+            "alt_classification_ids": [],
+            "classification_ids": [
+                "TM-126"
+            ],
+            "classification_titles": [
+                "architectural drawing"
+            ],
+            "subject_id": "TM-12121",
+            "alt_subject_ids": [
+                "TM-12075",
+                "TM-13214",
+                "TM-14001",
+                "TM-15039",
+                "TM-15026",
+                "TM-14989",
+                "TM-13371",
+                "TM-15044",
+                "TM-15045",
+                "TM-14669",
+                "TM-14925",
+                "TM-15043"
+            ],
+            "subject_ids": [
+                "TM-12121",
+                "TM-12075",
+                "TM-13214",
+                "TM-14001",
+                "TM-15039",
+                "TM-15026",
+                "TM-14989",
+                "TM-13371",
+                "TM-15044",
+                "TM-15045",
+                "TM-14669",
+                "TM-14925",
+                "TM-15043"
+            ],
+            "subject_titles": [
+                "schools",
+                "Chicago",
+                "illinois",
+                "Bertrand Goldberg Archive",
+                "architechture",
+                "architectural drawing",
+                "drawing",
+                "elevation",
+                "Floor plan",
+                "school",
+                "sketch",
+                "urban",
+                "working drawing"
+            ],
+            "material_id": "TM-2982",
+            "alt_material_ids": [
+                "TM-2410",
+                "TM-2398"
+            ],
+            "material_ids": [
+                "TM-2982",
+                "TM-2410",
+                "TM-2398"
+            ],
+            "material_titles": [
+                "paper (fiber product)",
+                "graphite",
+                "ink"
+            ],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "7d5eba8d-eb25-abce-b7f4-1d1a12bbc3ed",
+            "alt_image_ids": [
+                "e0d66b6d-53a2-28e5-10bb-52c10b9859d3",
+                "f02c0954-1e3e-a1f7-7476-46c0e21b1fbe",
+                "d0588eb8-6591-fb26-40ec-97a5672ffd91"
+            ],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "RX23664/66.1-183"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Clarendon Avenue School, Chicago, Illinois"
+                    ],
+                    "weight": 81,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:23:23-05:00",
+            "updated_at": "2025-09-16T11:25:23-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 180398,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/180398",
+            "is_boosted": false,
+            "title": "Flagler Marina Complex",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUAANrbyeHhzuHh0OHj0OPj0eTl0uHk1OPm1Ofm1Obn1Ofn1ujn1Ono1erp1+jq1unq1unq1+rq1+vq1+rr1+fq2evr2Onr2urr2uvt2ers2uzs2e3s2e3t2u7v2+7v3fHv2+/w3PDx3fHx3fHz3vHy3/Py3vTz3/Hz4PLz4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYqQMMFdfKERpMBhRTiaDQdkCMDISAYC0EBY1E0NhtJJPE4VD6lkkkUAAQBADs=",
+                "width": 3000,
+                "height": 1754,
+                "alt_text": "A work made of variable media."
+            },
+            "main_reference_number": "RX23664/44.1-140",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1947,
+            "date_end": 1964,
+            "date_display": "1947/64",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Bertrand Goldberg\nAmerican, 1913-1997",
+            "place_of_origin": "West Palm Beach",
+            "description": null,
+            "short_description": null,
+            "dimensions": "Variable dimensions",
+            "dimensions_detail": [],
+            "medium_display": "Variable media",
+            "inscriptions": null,
+            "credit_line": "The Archive of Bertrand Goldberg, gifted by his children through his estate",
+            "catalogue_display": null,
+            "publication_history": "Barrow, Heather and Lori Hanna Boyer.  Bertrand Goldberg Collection Finding Aid.  (The Art Institute of Chicago, 2007), p. 20.",
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 25,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 9.1934,
+            "color": {
+                "h": 58,
+                "l": 51,
+                "s": 4,
+                "percentage": 0.012030827793137137,
+                "population": 50
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Architectural Drawing",
+            "artwork_type_id": 34,
+            "department_title": "Architecture and Design",
+            "department_id": "PC-5",
+            "artist_id": 31299,
+            "artist_title": "Bertrand Goldberg",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                31299
+            ],
+            "artist_titles": [
+                "Bertrand Goldberg"
+            ],
+            "category_ids": [
+                "PC-5"
+            ],
+            "category_titles": [
+                "Architecture and Design"
+            ],
+            "term_titles": [
+                "architectural drawing",
+                "Bertrand Goldberg Archive"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids": [],
+            "style_ids": [],
+            "style_titles": [],
+            "classification_id": "TM-126",
+            "classification_title": "architectural drawing",
+            "alt_classification_ids": [],
+            "classification_ids": [
+                "TM-126"
+            ],
+            "classification_titles": [
+                "architectural drawing"
+            ],
+            "subject_id": null,
+            "alt_subject_ids": [
+                "TM-14001"
+            ],
+            "subject_ids": [
+                "TM-14001"
+            ],
+            "subject_titles": [
+                "Bertrand Goldberg Archive"
+            ],
+            "material_id": null,
+            "alt_material_ids": [],
+            "material_ids": [],
+            "material_titles": [],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [],
+            "image_id": "b34a216d-9026-e9c2-5280-7153fd33c1e7",
+            "alt_image_ids": [
+                "bc900c63-305d-c7d3-bbbc-08f9ca56c320",
+                "4c341177-663f-134a-69f9-6de06fdc9476"
+            ],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "RX23664/44.1-140"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Flagler Marina Complex"
+                    ],
+                    "weight": 1,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:23:56-05:00",
+            "updated_at": "2025-09-16T11:25:22-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 201655,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/201655",
+            "is_boosted": false,
+            "title": "Untitled",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAFVVVnd3d46OjrW1tcTExMzMzM/Pz9ra2uDg3+Hh4eXl5ebm5uzs7O/v7/Ly8gAAACH5BAAAAAAALAAAAAADAAUAAAQLsCV0AlFgOFGYWREAOw==",
+                "width": 1266,
+                "height": 2250,
+                "alt_text": "A work made of powder-coated steel."
+            },
+            "main_reference_number": "2010.474",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 2009,
+            "date_end": 2009,
+            "date_display": "2009",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "William J. O'Brien\nAmerican, born 1975",
+            "place_of_origin": "United States",
+            "description": null,
+            "short_description": null,
+            "dimensions": "86.4 × 38.1 × 30.5 cm (34 × 15 × 12 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": 30,
+                    "width": 38,
+                    "height": 86,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Powder-coated steel",
+            "inscriptions": null,
+            "credit_line": "Ann M. Vielehr Prize and Jacob and Bessie Levy Art Encouragement funds",
+            "catalogue_display": null,
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Basic",
+            "internal_department_id": 246,
+            "fiscal_year": 2011,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": 1280,
+            "copyright_notice": "© 2009 Wiliam J. O'Brien.",
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 0.6899,
+            "color": {
+                "h": 242,
+                "l": 48,
+                "s": 1,
+                "percentage": 0.0020588938671886755,
+                "population": 26
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Sculpture",
+            "artwork_type_id": 3,
+            "department_title": "Contemporary Art",
+            "department_id": "PC-8",
+            "artist_id": 110773,
+            "artist_title": "William J.  O'Brien",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                110773
+            ],
+            "artist_titles": [
+                "William J.  O'Brien"
+            ],
+            "category_ids": [
+                "PC-8",
+                "PC-154"
+            ],
+            "category_titles": [
+                "Contemporary Art",
+                "Chicago Artists"
+            ],
+            "term_titles": [
+                "sculpture",
+                "21st Century"
+            ],
+            "style_id": "TM-12913",
+            "style_title": "21st Century",
+            "alt_style_ids": [],
+            "style_ids": [
+                "TM-12913"
+            ],
+            "style_titles": [
+                "21st Century"
+            ],
+            "classification_id": "TM-13",
+            "classification_title": "sculpture",
+            "alt_classification_ids": [],
+            "classification_ids": [
+                "TM-13"
+            ],
+            "classification_titles": [
+                "sculpture"
+            ],
+            "subject_id": null,
+            "alt_subject_ids": [],
+            "subject_ids": [],
+            "subject_titles": [],
+            "material_id": null,
+            "alt_material_ids": [],
+            "material_ids": [],
+            "material_titles": [],
+            "technique_id": null,
+            "alt_technique_ids": [],
+            "technique_ids": [],
+            "technique_titles": [],
+            "theme_titles": [
+                "Chicago Artists"
+            ],
+            "image_id": "d2c2e440-0c82-2ae9-115c-f426dfa442d5",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "2010.474"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Untitled"
+                    ],
+                    "weight": 109,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:18:50-05:00",
+            "updated_at": "2025-09-16T11:20:24-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        },
+        {
+            "id": 6475,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/6475",
+            "is_boosted": false,
+            "title": "Covered Cup",
+            "alt_titles": null,
+            "thumbnail": {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACYjHiklHiAhIyEiJCoqKSwsKzc1Mzg2Mo95VZN/Xoh7Z6GGWZ+HYI2CcIKFioyPk6+qobeyq7Gys7y9vgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoEAUA5AggcEsx9MozhRBUggAOw==",
+                "width": 1772,
+                "height": 2250,
+                "alt_text": "Golden covered cup with two swirly designed handles decorated with engraved arms."
+            },
+            "main_reference_number": "1957.455",
+            "has_not_been_viewed_much": false,
+            "boost_rank": null,
+            "date_start": 1757,
+            "date_end": 1758,
+            "date_display": "1757/58",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "England, London\nRichard Gurney and Thomas Cook (English, active 1727-1773)",
+            "place_of_origin": "London",
+            "description": null,
+            "short_description": null,
+            "dimensions": "21 × 17.5 × 10.1 cm (8 1/4 × 6 7/8 × 3 15/16 in.)",
+            "dimensions_detail": [
+                {
+                    "depth": 10,
+                    "width": 17,
+                    "height": 21,
+                    "diameter": null,
+                    "clarification": null
+                }
+            ],
+            "medium_display": "Gold",
+            "inscriptions": "Mark on cup and cover: lion passant, leopard's head crowned, date letter, Gothic B and maker's mark, T over RG over C\nInscribed: \"The Gift of the City of Bristol to Captain Lockhart of Ye Tartar, 1758\"",
+            "credit_line": "Buckingham Fund",
+            "catalogue_display": null,
+            "publication_history": "1966. Antiques, Jan. 66, Vol. LXXXIX, no. 1, ill.\n1959. Antiques, Jan. 1959, p. 113.\n1958. Connoissiur, Sept. 1958, p. 65.\n1957. Catalogue: The Thomas Lumley Collection of Old English Silver held by Messrs. James Robinson Inc., New York, Oct. 14-26, 1957, #48.\n1951. Grimwade, A.G., \"A New List of Old English Gold Plate\", Part I - 17th Century, Connossieur, May 1951, pp. 76-82, ill. 13.\n\nIan Wardropper and Lynn Springer Roberts, European Decorative Arts in the Art Institute of Chicago (Chicago: Art Institute of Chicago, 1991), pp. 59, 61, 63 (ill.).",
+            "exhibition_history": "Baltimore Museum of Art, Age of Elegance: The Rococo and its Effect, April 25 to June 14, 1959.",
+            "provenance_text": null,
+            "edition": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 6,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "has_advanced_imaging": false,
+            "colorfulness": 37.9875,
+            "color": {
+                "h": 39,
+                "l": 49,
+                "s": 61,
+                "percentage": 0.004323677121096218,
+                "population": 39
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "nomisma_id": null,
+            "artwork_type_title": "Metalwork",
+            "artwork_type_id": 35,
+            "department_title": "Applied Arts of Europe",
+            "department_id": "PC-9",
+            "artist_id": 21741,
+            "artist_title": "Richard Gurney",
+            "alt_artist_ids": [],
+            "artist_ids": [
+                21741
+            ],
+            "artist_titles": [
+                "Richard Gurney"
+            ],
+            "category_ids": [
+                "PC-9"
+            ],
+            "category_titles": [
+                "Applied Arts of Europe"
+            ],
+            "term_titles": [
+                "drinking vessel",
+                "silver",
+                "plating (metal coating)",
+                "silver",
+                "nonferrous metal",
+                "metal",
+                "inorganic material",
+                "gold",
+                "metalwork",
+                "european decorative arts"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids": [],
+            "style_ids": [],
+            "style_titles": [],
+            "classification_id": "TM-11734",
+            "classification_title": "drinking vessel",
+            "alt_classification_ids": [
+                "TM-161",
+                "TM-29",
+                "TM-1394"
+            ],
+            "classification_ids": [
+                "TM-11734",
+                "TM-161",
+                "TM-29",
+                "TM-1394"
+            ],
+            "classification_titles": [
+                "drinking vessel",
+                "silver",
+                "metalwork",
+                "european decorative arts"
+            ],
+            "subject_id": null,
+            "alt_subject_ids": [],
+            "subject_ids": [],
+            "subject_titles": [],
+            "material_id": "TM-2436",
+            "alt_material_ids": [
+                "TM-2683",
+                "TM-2568",
+                "TM-2600",
+                "TM-2452"
+            ],
+            "material_ids": [
+                "TM-2436",
+                "TM-2683",
+                "TM-2568",
+                "TM-2600",
+                "TM-2452"
+            ],
+            "material_titles": [
+                "silver",
+                "nonferrous metal",
+                "metal",
+                "inorganic material",
+                "gold"
+            ],
+            "technique_id": "TM-4170",
+            "alt_technique_ids": [],
+            "technique_ids": [
+                "TM-4170"
+            ],
+            "technique_titles": [
+                "plating (metal coating)"
+            ],
+            "theme_titles": [],
+            "image_id": "d4231fb9-b941-3451-f7f2-3e4d06311185",
+            "alt_image_ids": [],
+            "document_ids": [],
+            "sound_ids": [],
+            "video_ids": [],
+            "text_ids": [],
+            "section_ids": [],
+            "section_titles": [],
+            "site_ids": [],
+            "suggest_autocomplete_all": [
+                {
+                    "input": [
+                        "1957.455"
+                    ],
+                    "contexts": {
+                        "groupings": [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input": [
+                        "Covered Cup"
+                    ],
+                    "weight": 3145,
+                    "contexts": {
+                        "groupings": [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "source_updated_at": "2025-09-16T11:15:53-05:00",
+            "updated_at": "2025-09-16T11:20:24-05:00",
+            "timestamp": "2025-09-16T11:53:25-05:00"
+        }
+    ],
+    "info": {
+        "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+        "license_links": [
+            "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://www.artic.edu/terms"
+        ],
+        "version": "1.13"
+    },
+    "config": {
+        "iiif_url": "https://www.artic.edu/iiif/2",
+        "website_url": "http://www.artic.edu"
+    }
+}

@@ -1,0 +1,113 @@
+FORMAT: 1A
+HOST: https://localhost:8443
+
+# Artwork API
+
+## Authentication [/api/v1/auth]
+
+### Register New User [POST]
++ Request (application/json)
+    {
+        "username": "newuser",
+        "password": "password123"
+    }
+
++ Response 201 (application/json)
+    "User created successfully"
+
+### Login User [POST]
++ Request (application/json)
+    {
+        "username": "newuser",
+        "password": "password123"
+    }
+
++ Response 200 (application/json)
+    {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+        "roles": ["ROLE_USER"]
+    }
+
+> Note: The returned `token` must be included in the `Authorization` header (`Bearer <token>`) for all protected endpoints.
+
+## Artwork Collection [/api/v1/artworks]
+
+### Get All Artworks [GET]
++ Response 200 (application/json)
+    + Attributes (array[Artwork])
+    
+> Requires JWT token. Roles allowed: `ROLE_USER`, `ROLE_ADMIN`.
+
+### Create New Artwork [POST]
++ Request (application/json)
+    {
+        "id": 1,
+        "title": "Artwork Title",
+        "artist": "Artist Name",
+        "description": "Artwork Description",
+        "art_type": "Artwork Type",
+        "thumbnail": "Image URL"
+    }
+
++ Response 201 (application/json)
+
+> Requires JWT token. Roles allowed: `ROLE_ADMIN`.
+
+## Single Artwork [/api/v1/artworks/{id}]
+
+### Get Artwork by ID [GET]
++ Parameters
+    + id: 1 (Integer, required) - Artwork ID
+
++ Response 200 (application/json)
+    {
+        "id": 1,
+        "title": "Artwork Title",
+        "artist": "Artist Name",
+        "description": "Artwork Description",
+        "art_type": "Artwork Type",
+        "thumbnail": "Image URL"
+    }
+
+> Requires JWT token. Roles allowed: `ROLE_USER`, `ROLE_ADMIN`.
+
+### Update Artwork by ID [PUT]
++ Parameters
+    + id: 1 (Integer, required) - Artwork ID
+
++ Request (application/json)
+    {
+        "title": "Artwork Title",
+        "artist": "Artist Name",
+        "description": "Artwork Description",
+        "art_type": "Artwork Type",
+        "thumbnail": "Image URL"
+    }
+
++ Response 200 (application/json)
+
+> Requires JWT token. Roles allowed: `ROLE_ADMIN`.
+
+### Delete Artwork by ID [DELETE]
++ Parameters
+    + id: 1 (Integer, required) - Artwork ID
+
++ Response 204 (application/json)
+
+> Requires JWT token. Roles allowed: `ROLE_ADMIN`.
+
+# Data Structures
+
+## Artwork (object)
++ id: 1 (Integer)
++ title: "Mona Lisa" (String)
++ artist: "Leonardo da Vinci" (String)
++ description: "Woman painting" (String)
++ art_type: "Painting" (String)
++ thumbnail: "Image URL" (String)
+
+## User (object)
++ id: MongoDB ObjectID (String)
++ username: "user1" (String)
++ password: "password123" (String)
++ roles: "[ROLE_USER]" (List<String>)

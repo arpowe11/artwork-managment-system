@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ArtworkInjest Component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="min-height: 100vh; margin: 0px; padding: 2rem; text-align: center; background: linear-gradient(to right, #4facfe, #00f2fe); display: flex; flex-direction: column; justify-content: flex-start; align-items: center;"
+  >
+    <div>
+      <nav
+        style="position: fixed; top: 0px; left: 0px; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0px 2rem; height: 60px; background-color: rgb(51, 51, 51); z-index: 1000; box-sizing: border-box;"
+      >
+        <div
+          style="display: flex; gap: 2rem;"
+        >
+          <a
+            href="http://localhost:5173/dashboard"
+            style="color: rgb(255, 255, 255); text-decoration: none; font-size: 1.1rem; transition: color 0.3s ease;"
+          >
+            Home
+          </a>
+          <a
+            href="http://localhost:5173/artwork-injest"
+            style="color: rgb(255, 255, 255); text-decoration: none; font-size: 1.1rem; transition: color 0.3s ease;"
+          >
+            Artwork Ingest
+          </a>
+          <a
+            href="http://localhost:5173/artwork-manager"
+            style="color: rgb(255, 255, 255); text-decoration: none; font-size: 1.1rem; transition: color 0.3s ease;"
+          >
+            Artwork Manager
+          </a>
+        </div>
+        <div
+          style="display: flex; align-items: center;"
+        >
+          <button
+            style="padding: 10px 24px; margin-top: 20px; cursor: pointer; background-color: rgb(230, 57, 70); color: rgb(255, 255, 255); border-radius: 8px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);"
+          >
+            Logout
+          </button>
+        </div>
+      </nav>
+    </div>
+    <h1
+      style="font-size: 2rem; margin-top: 3rem; margin-bottom: 2rem; color: rgb(255, 255, 255); text-shadow: 1px 1px 4px rgba(0,0,0,0.2);"
+    >
+      Artwork Ingest Page
+    </h1>
+    <p
+      style="font-size: 1rem; color: rgb(68, 68, 68); margin-bottom: 2rem; max-width: 600px; line-height: 1.5;"
+    >
+      To get anything new from the Artwork API, click the button below. To add your own artwork navigate to 
+      <a
+        href="#"
+      >
+         here 
+      </a>
+    </p>
+    <button
+      style="padding: 0.8rem 1.5rem; font-size: 1rem; font-weight: bold; background: rgb(80, 82, 80); color: rgb(255, 255, 255); border-radius: 8px; cursor: pointer; transition: all 0.2s ease;"
+    >
+      Ingest Data
+    </button>
+  </div>
+</DocumentFragment>
+`;

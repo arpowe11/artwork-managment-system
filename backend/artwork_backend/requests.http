@@ -1,0 +1,33 @@
+### POST request to create artwork
+POST http://localhost:8080/api/v1/artworks
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "Tree by the River",
+  "artist": "Robert River",
+  "description": "Water color painted tree by a beautiful river",
+  "art_type": "Canvas",
+  "thumbnail": "N/A"
+}
+
+### GET request to get artwork
+GET https://localhost:8443/api/v1/artworks
+
+### GET request to get artwork by id
+GET http://localhost:8080/api/v1/artworks/39
+
+### PUT request to update artwork by id
+PUT http://localhost:8080/api/v1/artworks/3
+Content-Type: application/json
+
+{
+  "title": "Tree by the River Side",
+  "artist": "Robert River",
+  "description": "Water color painted tree by a beautiful river",
+  "art_type": "Canvas",
+  "thumbnail": "N/A"
+}
+
+### DELETE request to delete artwork by id
+DELETE http://localhost:8080/api/v1/artworks/3
