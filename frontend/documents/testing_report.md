@@ -3,7 +3,7 @@
 ## Introduction  
 The goal of frontend testing for this project was to validate the functionality, reliability, and stability of React components and ensure at least **80% code coverage**. The testing was conducted using **Vitest** as the test runner along with **React Testing Library**, **Jest**, and **JSDOM** for simulating browser behavior.  
 
-The overall code coverage achieved was **80.07%**, which meets the project requirement.  
+Video demonstration of the testing results: [Results](https://youtu.be/6lsCCxdLxDc)
 
 ---
 
