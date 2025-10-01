@@ -1,14 +1,14 @@
-# Stage 1: build the JAR
-FROM maven:3.9.2-eclipse-temurin-17 AS builder
-WORKDIR /app
-COPY pom.xml .
-COPY .mvn .mvn
-COPY src ./src
-RUN mvn clean package -DskipTests
+# Start with a lightweight JDK image
+FROM eclipse-temurin:21-jdk-alpine
 
-# Stage 2: run the app
-FROM eclipse-temurin:17-jdk-alpine
+# Set working directory
 WORKDIR /app
-COPY --from=builder /app/target/artwork_backend-0.0.1-SNAPSHOT.jar .
-EXPOSE 8443
-CMD ["java", "-jar", "artwork_backend-0.0.1-SNAPSHOT.jar"]
+
+# Copy the jar file into the container
+COPY target/*.jar app.jar
+
+# Expose the port your Spring Boot app runs on
+EXPOSE 8080
+
+# Run the application
+ENTRYPOINT ["java", "-jar", "app.jar"]
