@@ -2,6 +2,9 @@ package com.apowell.artwork_backend.config;
 
 import com.apowell.artwork_backend.security.*;
 import jakarta.servlet.http.HttpServletResponse;
+
+import java.util.List;
+
 import org.springframework.context.annotation.*;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;
@@ -13,6 +16,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 
 @Configuration
@@ -57,7 +61,16 @@ public class SecurityConfig {
                             response.getWriter().write("{\"error\":\"Forbidden - missing or invalid token\"}");
                         })
                 )
-                .cors(cors -> {}); // keep your existing CORS settings
+                .cors(cors -> cors.configurationSource(request -> {
+                    CorsConfiguration config = new CorsConfiguration();
+                    config.setAllowedOrigins(
+                        List.of("https://ams-frontend-bkg8bmdhhsabbfem.canadacentral-01.azurewebsites.net")
+                    );
+                    config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
+                    config.setAllowedHeaders(List.of("Authorization","Content-Type"));
+                    config.setAllowCredentials(true);
+                    return config;
+                }));
 
         // Disable OAuth2 for this chain to force 403 for unauthorized access
         http.oauth2Login(AbstractHttpConfigurer::disable);
@@ -81,7 +94,16 @@ public class SecurityConfig {
                 .oauth2Login(oauth -> oauth
                         .successHandler(oauth2SuccessHandler)
                 )
-                .cors(cors -> {}); // same CORS config if needed
+                .cors(cors -> cors.configurationSource(request -> {
+                    CorsConfiguration config = new CorsConfiguration();
+                    config.setAllowedOrigins(
+                        List.of("https://ams-frontend-bkg8bmdhhsabbfem.canadacentral-01.azurewebsites.net")
+                    );
+                    config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
+                    config.setAllowedHeaders(List.of("Authorization","Content-Type"));
+                    config.setAllowCredentials(true);
+                    return config;
+                }));
 
         return http.build();
     }
