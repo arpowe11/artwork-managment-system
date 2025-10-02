@@ -1,7 +1,9 @@
 package com.apowell.artwork_backend.config;
 
 import com.apowell.artwork_backend.security.*;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -28,30 +30,54 @@ public class SecurityConfig {
         return new JwtAuthenticationFilter(jwtUtil, userDetailsService);
     }
 
+    /**
+     * Security chain for API endpoints: uses JWT only.
+     */
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http,
-                                                   OAuth2LoginSuccessHandler oauth2SuccessHandler) throws Exception {
+    @Order(1)
+    public SecurityFilterChain apiSecurity(HttpSecurity http) throws Exception {
         http
-                .cors(cors -> {})
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/v1/auth/google").permitAll()
-                        .requestMatchers("/oauth2/callback/google").permitAll()
-                        .requestMatchers("/api/v1/auth/**").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                        .requestMatchers("/api/v1/auth/**").permitAll() // public auth endpoints
                         .requestMatchers(HttpMethod.GET, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/api/v1/artworks/**").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
-                // Add JWT filter before the username/password filter
                 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
-                // Add OAuth2 login success handler
+                .exceptionHandling(ex -> ex
+                        .authenticationEntryPoint((request, response, authException) -> {
+                            response.setContentType("application/json");
+                            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                            response.getWriter().write("{\"error\":\"Forbidden - missing or invalid token\"}");
+                        })
+                )
+                .cors(cors -> {}); // keep your existing CORS settings
+
+        return http.build();
+    }
+
+    /**
+     * Security chain for web/OAuth2 login.
+     */
+    @Bean
+    @Order(2)
+    public SecurityFilterChain webSecurity(HttpSecurity http, OAuth2LoginSuccessHandler oauth2SuccessHandler) throws Exception {
+        http
+                .csrf(csrf -> csrf.disable())
+                .authorizeHttpRequests(auth -> auth
+                        .requestMatchers("/api/v1/auth/google").permitAll()
+                        .requestMatchers("/oauth2/callback/google").permitAll()
+                        .anyRequest().permitAll()
+                )
                 .oauth2Login(oauth -> oauth
                         .successHandler(oauth2SuccessHandler)
-                );
+                )
+                .cors(cors -> {}); // same CORS config if needed
 
         return http.build();
     }
