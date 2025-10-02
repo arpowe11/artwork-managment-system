@@ -8,15 +8,16 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
 
   const handleGoogleLogin = () => {
     const width = 500;
     const height = 600;
     const left = window.innerWidth / 2 - width / 2;
     const top = window.innerHeight / 2 - height / 2;
-
+    
     const popup = window.open(
-      "http://localhost:8080/oauth2/authorization/google", // Spring’s default Google OAuth endpoint
+      `${baseUrl}/oauth2/authorization/google`, // Spring’s default Google OAuth endpoint
       "Google Login",
       `width=${width},height=${height},top=${top},left=${left}`
     );
@@ -26,7 +27,7 @@ const Login = () => {
   useEffect(() => {
     function handleMessage(event) {
       console.log("EVENT:", event.origin);
-      if (event.origin !== "http://localhost:8080") return; // only trust same origin
+      if (event.origin !== baseUrl) return; // only trust same origin
       if (event.data?.token) {
         sessionStorage.setItem("token", event.data.token);
         console.log("IN HERE")
@@ -46,7 +47,7 @@ const Login = () => {
     e.preventDefault();  // Prevent page reload
 
     try {
-      const response = await fetch("http://localhost:8080/api/v1/auth/login", {
+      const response = await fetch(`${baseUrl}/api/v1/auth/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json"},
         body: JSON.stringify({ email, password })

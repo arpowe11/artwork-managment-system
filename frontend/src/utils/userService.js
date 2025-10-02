@@ -4,7 +4,7 @@ const getUser = async () => {
   if (!token) return null;
 
   try {
-    const response = await fetch("http://localhost:8080/api/v1/auth/users", {
+    const response = await fetch("https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net/api/v1/auth/users", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

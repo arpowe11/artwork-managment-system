@@ -16,12 +16,13 @@ const Dashboard = ({user}) => {
   
   // Fetches the artwork via GET, 0 gets all data otherwise get by ID
   const getData = async (id) => {
+    let baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
     let url;
-    console.log(id);
+
     if (!id || id === "0") {
-      url = "http://localhost:8080/api/v1/artworks"
+      url = `${baseUrl}/api/v1/artworks`;
     } else {
-      url = `http://localhost:8080/api/v1/artworks/${id}`
+      url = `${baseUrl}/api/v1/artworks/${id}`;
     }
     console.log("Getting data");
 

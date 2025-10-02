@@ -7,7 +7,8 @@ const Register = () => {
         e.preventDefault(); // Prevent default form submission
 
         const formElement = e.target; // The form element
-        const url = "http://localhost:8080/api/v1/auth/register"; // TODO: Replace with backend endpoint
+        const baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
+        const url = `${baseUrl}/api/v1/auth/register`; 
 
         try {
             const formData = new FormData(formElement);  // Turn the data from the form into form data
@@ -39,7 +40,7 @@ const Register = () => {
             if (response.ok) {
                 alert('Registration successful!');
                 formElement.reset(); // Clear the form
-                window.location.href = "http://localhost:5173/";
+                window.location.href = "http://localhost:5173/";  // TODO: change this to frontend url
             } else {
                 alert('Error: ' + result.message);
             }

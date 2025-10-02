@@ -7,9 +7,10 @@ const Oauth2Redirect = () => {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const token = params.get("token");
+    const baseUrl = "http://localhost:5173";  // TODO: change to frontend url
 
     if (window.opener && token) {
-      window.opener.postMessage({ token }, "http://localhost:5173");
+      window.opener.postMessage({ token }, baseUrl); 
       window.close();
     } else {
       // Fallback: save token directly if opened in same window

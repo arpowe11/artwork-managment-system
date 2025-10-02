@@ -29,6 +29,7 @@ const ArtworkManager = ({ user }) => {
 
     // Handles the submit
     const manageArtworkSubmit = () => {
+        const baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
         let url = "";
         let httpMethod = "";
         
@@ -43,15 +44,15 @@ const ArtworkManager = ({ user }) => {
         }
 
         if (method === "POST") {
-            url = "http://localhost:8080/api/v1/artworks";
+            url = `${baseUrl}/api/v1/artworks1`;
             data.id = 0;
             httpMethod = "POST";
         } else if (method === "UPDATE") {
-            url = `http://localhost:8080/api/v1/artworks/${data.id}`;
+            url = `${baseUrl}/api/v1/artworks/${data.id}`;
             data.id = parseInt(data.id, 10);
             httpMethod = "PUT"; // 👈 correct verb
         } else if (method === "DELETE") {
-            url = `http://localhost:8080/api/v1/artworks/${data.id}`;
+            url = `${baseUrl}/api/v1/artworks/${data.id}`;
             data.id = parseInt(data.id, 10);
             httpMethod = "DELETE";
         }
