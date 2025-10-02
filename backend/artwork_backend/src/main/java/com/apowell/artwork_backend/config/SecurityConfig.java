@@ -14,7 +14,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.web.cors.CorsConfigurationSource;
 
 import com.apowell.artwork_backend.security.*;
 
@@ -35,53 +34,30 @@ public class SecurityConfig {
         return new JwtAuthenticationFilter(jwtUtil, userDetailsService);
     }
 
-    /**
-     * API security chain - uses JWT only
-     */
     @Bean
-    @Order(1)
-    public SecurityFilterChain apiSecurity(HttpSecurity http, CorsConfigurationSource corsConfigurationSource) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http,
+                                                   OAuth2LoginSuccessHandler oauth2SuccessHandler) throws Exception {
         http
+                .cors(cors -> {})
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                        .requestMatchers("/api/v1/auth/google").permitAll()
+                        .requestMatchers("/oauth2/callback/google").permitAll()
                         .requestMatchers("/api/v1/auth/**").permitAll()
+                        .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/api/v1/artworks/**").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
+                // Add JWT filter before the username/password filter
                 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
-                .exceptionHandling(ex -> ex
-                        .authenticationEntryPoint((request, response, authException) -> {
-                            response.setContentType("application/json");
-                            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
-                            response.getWriter().write("{\"error\":\"Forbidden - missing or invalid token\"}");
-                        })
-                )
-                .cors(cors -> cors.configurationSource(corsConfigurationSource))
-                .oauth2Login(AbstractHttpConfigurer::disable); // disable OAuth2 for API endpoints
-
-        return http.build();
-    }
-
-    /**
-     * Web/OAuth2 security chain
-     */
-    @Bean
-    @Order(2)
-    public SecurityFilterChain webSecurity(HttpSecurity http, OAuth2LoginSuccessHandler oauth2SuccessHandler, CorsConfigurationSource corsConfigurationSource) throws Exception {
-        http
-                .csrf(csrf -> csrf.disable())
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/v1/auth/google").permitAll()
-                        .requestMatchers("/oauth2/callback/google").permitAll()
-                        .anyRequest().permitAll()
-                )
-                .oauth2Login(oauth -> oauth.successHandler(oauth2SuccessHandler))
-                .cors(cors -> cors.configurationSource(corsConfigurationSource));
+                // Add OAuth2 login success handler
+                .oauth2Login(oauth -> oauth
+                        .successHandler(oauth2SuccessHandler)
+                );
 
         return http.build();
     }
@@ -96,6 +72,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 }
+
 
 
 // package com.apowell.artwork_backend.config;
