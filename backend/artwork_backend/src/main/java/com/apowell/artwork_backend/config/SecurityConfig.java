@@ -7,6 +7,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -57,6 +58,9 @@ public class SecurityConfig {
                         })
                 )
                 .cors(cors -> {}); // keep your existing CORS settings
+
+        // Disable OAuth2 for this chain to force 403 for unauthorized access
+        http.oauth2Login(AbstractHttpConfigurer::disable);
 
         return http.build();
     }
