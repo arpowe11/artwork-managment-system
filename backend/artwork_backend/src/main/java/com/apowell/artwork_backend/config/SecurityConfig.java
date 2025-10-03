@@ -43,6 +43,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/v1/auth/google").permitAll()
                         .requestMatchers("/oauth2/callback/google").permitAll()
                         .requestMatchers("/api/v1/auth/**").permitAll()
+                        .requestMatchers("/actuator/health").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/v1/artworks/**").hasAnyRole("USER", "ADMIN")

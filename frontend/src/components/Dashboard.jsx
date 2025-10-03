@@ -16,7 +16,7 @@ const Dashboard = ({user}) => {
   
   // Fetches the artwork via GET, 0 gets all data otherwise get by ID
   const getData = async (id) => {
-    let baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
+    const baseUrl = "http://4.156.243.142";
     let url;
 
     if (!id || id === "0") {

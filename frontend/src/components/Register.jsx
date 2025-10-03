@@ -7,7 +7,7 @@ const Register = () => {
         e.preventDefault(); // Prevent default form submission
 
         const formElement = e.target; // The form element
-        const baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
+        const baseUrl = "http://4.156.243.142";
         const url = `${baseUrl}/api/v1/auth/register`; 
 
         try {

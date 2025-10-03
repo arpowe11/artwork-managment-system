@@ -29,7 +29,7 @@ const ArtworkManager = ({ user }) => {
 
     // Handles the submit
     const manageArtworkSubmit = () => {
-        const baseUrl = "https://ams-app-backend-chdndmaghpetfabk.canadacentral-01.azurewebsites.net";
+        const baseUrl = "http://4.156.243.142";
         let url = "";
         let httpMethod = "";
         
