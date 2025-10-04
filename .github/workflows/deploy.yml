@@ -30,20 +30,16 @@ jobs:
         npm test
 
     # ---------- BACKEND TEST ----------
-    - name: Setup Backend (example: Python)
-      uses: actions/setup-python@v4
+    - name: Set up JDK
+      uses: actions/setup-java@v3
       with:
-        python-version: 3.11
+        distribution: 'temurin'
+        java-version: '21'   
 
-    - name: Install Backend Dependencies
+    - name: Build & Test Backend
       run: |
-        cd backend
-        pip install -r requirements.txt
-
-    - name: Run Backend Tests
-      run: |
-        cd backend
-        pytest  # or your test command
+        cd backend/artwork_backend
+        ./mvnw clean install
 
     # ---------- DOCKER LOGIN ----------
     - name: Log in to Azure
