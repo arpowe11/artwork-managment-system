@@ -34,7 +34,7 @@ describe("getUser", () => {
     expect(result).toEqual(fakeUser);
     expect(fetch).toHaveBeenCalledOnce();
     expect(fetch).toHaveBeenCalledWith(
-      "http://localhost:8080/api/v1/auth/users",
+      "http://4.156.243.142/api/v1/auth/users",
       expect.objectContaining({
         method: "GET",
         headers: expect.objectContaining({
