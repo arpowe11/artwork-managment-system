@@ -63,7 +63,7 @@ jobs:
 
     # ---------- BUILD & PUSH BACKEND ----------
     - name: Build Backend Docker Image
-      run: docker build -t amsregisrty1.azurecr.io/backend:latest ./backend
+      run: docker build -t amsregisrty1.azurecr.io/backend:latest ./backend/artwork_backend
 
     - name: Push Backend Docker Image
       run: docker push amsregisrty1.azurecr.io/backend:latest
