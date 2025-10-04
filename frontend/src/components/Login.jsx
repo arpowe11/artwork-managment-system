@@ -118,7 +118,7 @@ const Login = () => {
             </form>
           </div>
 
-        <p style={ {color: "black"} }>Dont have an account? <a href="http://localhost:5173/register">Register</a></p>
+        <p style={ {color: "black"} }>Dont have an account? <a href="https://ams-frontend-app-dcexhvh9e0f5fjg3.canadacentral-01.azurewebsites.net/register">Register</a></p>
         </div>
       </div>
 
