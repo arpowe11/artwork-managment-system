@@ -114,3 +114,22 @@ The deployment of my application uses a **modern, cloud-native approach** with G
 - **Monitoring and logging** are provided natively through App Services, ensuring operational visibility.  
 
 This design ensures that the application is **secure, resilient, and scalable**, aligning with best practices for cloud deployments.  
+
+---
+
+## 5. Bonus: Using Azure AI for Monitoring and Logging
+
+As a bonus enhancement to the deployment, I integrated Azure AI-powered monitoring and logging to extend observability and proactive detection of issues. This aligns with how services like AWS CodeGuru or Google Cloud AI Platform bring intelligence into DevOps workflows.
+
+### Azure Monitor and Application Insights
+Azure Application Insights was enabled on the deployed App Service. This service uses built-in anomaly detection powered by machine learning to automatically identify unusual patterns in telemetry data. For example, if API response times deviate significantly from normal baselines, the system can trigger alerts without requiring manual thresholds.
+
+![az_logs](./images/backend_ai_insights.png)
+
+### AI-Driven Log Analysis
+Logs from the containers and application services are ingested into Azure Log Analytics. By using Kusto Query Language (KQL) combined with AI assistance, the system can automatically suggest log queries and highlight root causes of failures. For example, it can detect that the majority of errors in a timeframe were related to a specific dependency or misconfiguration.
+
+![az_diag](./images/az_diag.png)
+
+
+**Outcome:** With these AI integrations, the deployment is not only automated, secure, and scalable, but also proactively monitored using Azures GenAI. This ensures that anomalies are detected early, root causes are automatically identified, and developers receive intelligent insights into both performance and reliability.
