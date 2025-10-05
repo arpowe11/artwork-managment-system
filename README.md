@@ -40,6 +40,12 @@ Welcome to the **Artwork Management System**, a full-stack project for managing 
 
 ---
 
+## Deployment
+- **Docker** Docker images pushed to Azure Container Registry
+- **Cloud Provider** Azure Cloud
+- **CI/CD** Github Actions
+- Docs for deployment can be found [here](./docs/deployment.md)
+
 ## Documentation
 - All project-related documentation, including testing reports and implementation guides, is available in the respective `documents` or `documentation` folders.
 

@@ -40,7 +40,7 @@ const Register = () => {
             if (response.ok) {
                 alert('Registration successful!');
                 formElement.reset(); // Clear the form
-                window.location.href = "http://localhost:5173/";  // TODO: change this to frontend url
+                window.location.href = "https://ams-frontend-app-dcexhvh9e0f5fjg3.canadacentral-01.azurewebsites.net/";  
             } else {
                 alert('Error: ' + result.message);
             }
