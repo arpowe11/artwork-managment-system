@@ -20,8 +20,8 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                                "https://ams-frontend-bkg8bmdhhsabbfem.canadacentral-01.azurewebsites.net",
-                                "https://ams-frontend-bkg8bmdhhsabbfem.canadacentral-01.azurewebsites.net/",
+                                "https://ams-frontend-app-dcexhvh9e0f5fjg3.canadacentral-01.azurewebsites.net",
+                                "https://ams-frontend-app-dcexhvh9e0f5fjg3.canadacentral-01.azurewebsites.net/",
                                 "http://localhost:5173"
                                 )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")

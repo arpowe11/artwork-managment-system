@@ -8,7 +8,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const baseUrl = "http://4.156.243.142";
+  const baseUrl = "https://4.156.243.142";
 
   const handleGoogleLogin = () => {
     const width = 500;
